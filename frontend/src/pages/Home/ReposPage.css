@@ -1,0 +1,74 @@
+.qtdRepo{
+    text-align: center;
+}
+.qtdRepo span{
+    font-weight: bold;
+    color: rgb(2, 172, 172);
+}
+.repo{
+    background-color: rgb(25, 25, 25);
+    margin-bottom: 1em;
+    padding: .5em;
+    display: flex;
+    align-items: center;
+    border-radius: 1em;
+    gap: 1em;
+}
+.infosRepo{
+    flex: 1;
+}
+.repo a{
+    text-decoration: none;
+    color: rgb(2, 172, 172);
+    transition: .2s;
+}
+.repo a:hover{
+    color: rgb(0, 223, 223);
+}
+.repo .deleteEditRepo{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.repo .deleteEditRepo button{
+    border: 1px solid rgb(185, 185, 185);
+    background-color: transparent;
+    color: rgb(143, 143, 143);
+    cursor: pointer;
+    padding: .5em;
+    border-radius: .5em;
+    transition: .2s;
+}
+.repo .deleteEditRepo .btnDelete:hover{
+    color: #fff;
+    background-color: rgb(197, 59, 59);
+    border-color: black;
+}
+.repo .deleteEditRepo .btnEdit:hover{
+    color: #fff;
+    background-color: rgb(59, 103, 197);
+    border-color: black;
+}
+.noRepo{
+    text-align: center;
+    font-size: 1.3em;
+}
+@media (max-width: 700px) {
+    .repo{
+        flex-direction: column;
+        text-align: center;
+    }
+    .repo .deleteEditRepo{
+        flex-direction: row;
+        width: 100%;
+    }
+    .repo .deleteEditRepo button{
+        margin: auto;
+        width: 30%;
+    }
+}
+@media (max-width: 500px) {
+    .repo{
+        font-size: .8em;
+    }
+}

@@ -1,0 +1,36 @@
+.addRepo{
+    margin-top: 1em;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.addRepo .newRepo input {
+    width: 75%;
+    margin-top: 2em;
+    background-color: transparent;
+    border: none;
+    padding: .5em;
+    border-bottom: 1px solid rgb(178,178,178);
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.addRepo .newRepo input:focus {
+    color: rgb(2, 148, 148);
+}
+.addRepo .newRepo button{
+    padding: .5em;
+    border-radius: .3em;
+    background-color: transparent;
+    border: 1px solid rgb(178,178,178);
+    transition: .2s;
+    cursor: pointer;
+}
+.addRepo .newRepo button:hover{
+    border-color: rgb(2, 148, 148);
+}
+@media (max-width: 700px) {
+    .addRepo{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}

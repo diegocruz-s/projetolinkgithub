@@ -1,0 +1,42 @@
+.divSearch{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    gap: .5em;
+}
+.divSearch form{
+    flex: 1;
+}
+.divSearch input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(168, 168, 168);
+    padding: .5em;
+}
+.divSearch input:focus{
+    color: rgb(0, 148, 148);
+}
+.divSearch button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: .5em;
+    transition: .2s;
+}
+.divSearch button:hover{
+    border-color: rgb(0, 148, 148);
+}
+@media (max-width: 400px) {
+    .divSearch{
+        flex-direction: column;
+    }
+    .divSearch button{
+        width: 50%;
+        margin: auto;
+    }
+}
+@media (max-width: 790px) {
+    .divSearch{
+        width: 100%;
+    }
+}

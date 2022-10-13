@@ -1,0 +1,54 @@
+#auth{
+    background-color: transparent;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20vh;
+    padding: 1.2em;
+    text-align: center;
+}
+.optionsForm{
+    width: 100%;
+}
+.optionsForm button{
+    width: 40%;
+    margin-bottom: 2em;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    padding: 1em;
+    cursor: pointer;
+}
+.optionsForm .showFormButton{
+    border-bottom: 2px solid rgb(0, 148, 148);
+}
+.formAuth input[type='submit']{
+    margin: auto;
+    cursor: pointer;
+    width: 80%;
+    transition: .2s;
+}
+.formAuth input[type='submit']:hover{
+    padding: .7em;
+    width: 82%;
+}
+.formAuth input{
+    width: 80%;
+    color: #fff;
+    padding: .5em;
+    border-radius: .4em;
+    font-size: 1em;
+    background-color: transparent;
+    border: 1px solid rgb(0, 148, 148);
+}
+.formAuth input::placeholder{
+    color: #fff;
+}
+.formAuth input:focus{
+    color: aqua;
+}
+@media (max-width: 530px) {
+    .optionsForm button{
+        width: 100%;
+    }
+}

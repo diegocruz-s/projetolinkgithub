@@ -1,0 +1,21 @@
+*{
+  color: #fff;
+  word-break: break-all;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #070808;
+  width: 70%;
+  margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form label{
+  margin-bottom: 1em;
+}
+
